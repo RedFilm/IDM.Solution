@@ -5,6 +5,16 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDM.AuthorizationService", "IDM.AuthorizationService\IDM.AuthorizationService.csproj", "{0DBAD603-13F8-4AA8-94D3-4D38756F920C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthorizationService", "AuthorizationService", "{07E24070-3D5E-4C2E-8CEB-F282D14547CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStorageService", "DataStorageService", "{E242D4D4-85B2-4620-B1A8-F4C2B5BBC45B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAnaliticsService", "DataAnaliticsService", "{B51FE2DD-5A20-4282-97DC-55F3725DE8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDM.DataAnaliticsService.WebAPI", "DataAnaliticsService\IDM.DataAnaliticsService.WebAPI\IDM.DataAnaliticsService.WebAPI.csproj", "{0463F661-E02A-4DA8-B9E2-F32A28905662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDM.DataStorageService.WebAPI", "DataStorageService\IDM.DataStorageService.WebAPI\IDM.DataStorageService.WebAPI.csproj", "{05044683-D110-4AC5-9BC2-FBA49B5DC7D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +25,21 @@ Global
 		{0DBAD603-13F8-4AA8-94D3-4D38756F920C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DBAD603-13F8-4AA8-94D3-4D38756F920C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DBAD603-13F8-4AA8-94D3-4D38756F920C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0463F661-E02A-4DA8-B9E2-F32A28905662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0463F661-E02A-4DA8-B9E2-F32A28905662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0463F661-E02A-4DA8-B9E2-F32A28905662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0463F661-E02A-4DA8-B9E2-F32A28905662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05044683-D110-4AC5-9BC2-FBA49B5DC7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05044683-D110-4AC5-9BC2-FBA49B5DC7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05044683-D110-4AC5-9BC2-FBA49B5DC7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05044683-D110-4AC5-9BC2-FBA49B5DC7D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DBAD603-13F8-4AA8-94D3-4D38756F920C} = {07E24070-3D5E-4C2E-8CEB-F282D14547CD}
+		{0463F661-E02A-4DA8-B9E2-F32A28905662} = {B51FE2DD-5A20-4282-97DC-55F3725DE8F4}
+		{05044683-D110-4AC5-9BC2-FBA49B5DC7D2} = {E242D4D4-85B2-4620-B1A8-F4C2B5BBC45B}
 	EndGlobalSection
 EndGlobal
